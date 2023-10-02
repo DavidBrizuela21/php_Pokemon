@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pokemon-selection {
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.pokemon-selection:hover {
+    border-color: #007bff;
+}
+
+.pokemon-selection.selected {
+    border-color: #28a745;
+}
